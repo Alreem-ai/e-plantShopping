@@ -250,3 +250,20 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+.product-description {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.product-cost {
+    color: #e74c3c;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-button.added-to-cart,
+.product-button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
